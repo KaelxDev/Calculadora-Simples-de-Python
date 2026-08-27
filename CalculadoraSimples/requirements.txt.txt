@@ -1,0 +1,6 @@
+# Calculadora Simples - Requirements
+# Este projeto utiliza apenas bibliotecas padrão do Python
+# Nenhuma instalação adicional é necessária
+
+# Python 3.x
+# tkinter (incluso na instalação padrão do Python)
