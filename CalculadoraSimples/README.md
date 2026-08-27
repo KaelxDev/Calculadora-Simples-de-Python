@@ -42,6 +42,7 @@ Pip install -r requirements.txt
 Uso:
 python -m Calculadora_Simples.py
 
+Ou você pode abrir o arquivo **Calculadora_Simples.exe**
 
 # ======================
 # Estrutura do Projeto
@@ -49,6 +50,7 @@ python -m Calculadora_Simples.py
 
 CalculadoraPython/
 ├──  Calculadora_simples.Py
+├──  Calculadora_simples.Exe
 │          
 ├── README.md
 ├── LICENSE
