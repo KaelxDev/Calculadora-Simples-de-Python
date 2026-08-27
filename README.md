@@ -1,76 +1,76 @@
-# ======================
-# Apresentação do Projeto
-# ======================
- 
+# 🧮 Calculadora
 
-Uma calculadora gráfica desenvolvida em Python utilizando a biblioteca Tkinter, com interface moderna e escura.
+Uma calculadora simples e funcional, desenvolvida para realizar operações matemáticas básicas, com suporte a expressões encadeadas, tratamento de erros, formatação automática dos resultados e histórico de cálculos.
+
+## 🧮 Funcionalidades Principais
+
+### Operações Matemáticas Básicas
+
+* ➕ Adição (`+`)
+* ➖ Subtração (`-`)
+* ✖️ Multiplicação (`×`)
+* ➗ Divisão (`/`)
+* 📊 Porcentagem (`%`)
+
+### ⌨️ Entrada e Edição
+
+* **Inserção numérica:** botões de `0` a `9` para digitação.
+* **Ponto decimal:** suporte para números com casas decimais.
+* **Apagar caractere:** botão `⌫` para remover o último dígito.
+* **Limpar tudo:** botão `AC` (All Clear) para resetar o visor e iniciar um novo cálculo.
+
+### 🧠 Cálculo Inteligente
+
+A calculadora permite avaliar expressões matemáticas encadeadas, como:
+
+```text
+2 + 3 * 4
+```
+
+Além disso, possui tratamento automático de erros:
+
+* **Divisão por zero:** exibe `Erro`.
+* **Expressões inválidas:** exibe `Inválido`.
+
+### 🔢 Formatação Automática
+
+Os resultados são formatados automaticamente para facilitar a leitura:
+
+* Resultados decimais são arredondados para até **10 casas decimais**.
+* Números inteiros são exibidos **sem casas decimais desnecessárias**.
+
+## 📜 Histórico de Cálculos
+
+A calculadora possui um sistema de histórico que registra automaticamente as operações realizadas.
+
+* **Registro automático:** armazena os cálculos efetuados.
+* **Visualização:** o botão `Hist` abre uma janela com o histórico completo.
+* **Persistência:** o histórico permanece disponível durante toda a sessão da calculadora.
+
+## 🚀 Objetivo
+
+O projeto foi desenvolvido com o objetivo de oferecer uma calculadora prática, intuitiva e fácil de utilizar, reunindo operações básicas, avaliação de expressões, tratamento de erros e histórico em uma única aplicação.
+
+## 📌 Funcionalidades em Destaque
+
+| Funcionalidade           | Suporte |
+| ------------------------ | :-----: |
+| Adição                   |    ✅    |
+| Subtração                |    ✅    |
+| Multiplicação            |    ✅    |
+| Divisão                  |    ✅    |
+| Porcentagem              |    ✅    |
+| Números decimais         |    ✅    |
+| Exclusão de caracteres   |    ✅    |
+| Limpeza completa         |    ✅    |
+| Expressões encadeadas    |    ✅    |
+| Tratamento de erros      |    ✅    |
+| Formatação de resultados |    ✅    |
+| Histórico de cálculos    |    ✅    |
+
+## 📄 Licença
+
+Este projeto está disponível para fins de estudo e desenvolvimento.
 
 
-# ======================
-# Funcionalidades
-# ======================
-
-
-Funcionalidades Principais:
-
-A calculadora oferece operações matemáticas básicas, como adição (+), subtração (-), multiplicação (×), divisão (/) e porcentagem (%). Para a entrada e edição dos valores, possui botões numéricos de 0 a 9, suporte a ponto decimal para números com casas decimais, botão ⌫ para apagar o último caractere digitado e botão AC (All Clear) para limpar completamente o visor e reiniciar o cálculo.
-
-O sistema também conta com cálculo inteligente, permitindo a avaliação de expressões matemáticas encadeadas, como 2+3*4. Em situações de erro, a calculadora identifica divisão por zero e exibe "Erro", enquanto expressões inválidas são apresentadas como "Inválido". Os resultados possuem formatação automática: números decimais são arredondados para até 10 casas decimais, enquanto números inteiros são exibidos sem casas decimais.
-
-Histórico de Cálculos:
-
-A calculadora registra automaticamente todas as operações realizadas. O botão "Hist" permite abrir uma janela contendo o histórico completo dos cálculos efetuados. Esse histórico permanece armazenado durante toda a sessão de uso da calculadora.
-
-
-# ======================
-# Requisitos
-# ======================
-
-
-
-Python 3.x
-tkinter (incluso na instalação padrão do Pytho)
-
-
-# ======================
-# Instalação
-# ======================
-
-
-Pip install -r requirements.txt
-
-Uso:
-python -m Calculadora_Simples.py
-
-
-# ======================
-# Estrutura do Projeto
-# ======================
-
-CalculadoraPython/
-├──  Calculadora_simples.Py
-│          
-├── README.md
-├── LICENSE
-├── requirements.txt
-
-
-# ======================
-# Licença
-# ======================
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
-
-# ======================
-# Autor
-# ======================
-
-Nome de Dev: KaelxDev
-
-Email: KaelxDev@gmail.com
-
-# ======================
-# Versão
-# ======================
-
-1.0.0
+Desenvolvido para oferecer uma experiência de cálculo simples, rápida e intuitiva.
