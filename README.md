@@ -73,4 +73,4 @@ O projeto foi desenvolvido com o objetivo de oferecer uma calculadora prática, 
 Este projeto está disponível para fins de estudo e desenvolvimento.
 
 
-Desenvolvido para oferecer uma experiência de cálculo simples, rápida e intuitiva.
+Desenvolvido por KaelxDev para oferecer uma experiência de cálculo simples, rápida e intuitiva.
